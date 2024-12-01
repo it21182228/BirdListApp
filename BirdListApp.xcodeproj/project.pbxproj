@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75A5389B2CFAE0A60003C123 /* BirdListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5389A2CFAE0A60003C123 /* BirdListAppApp.swift */; };
+		75A5389D2CFAE0A60003C123 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5389C2CFAE0A60003C123 /* ContentView.swift */; };
+		75A5389F2CFAE0A70003C123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A5389E2CFAE0A70003C123 /* Assets.xcassets */; };
+		75A538A22CFAE0A70003C123 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A538A12CFAE0A70003C123 /* Preview Assets.xcassets */; };
+		75A538AC2CFAE0A70003C123 /* BirdListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A538AB2CFAE0A70003C123 /* BirdListAppTests.swift */; };
+		75A538B62CFAE0A70003C123 /* BirdListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A538B52CFAE0A70003C123 /* BirdListAppUITests.swift */; };
+		75A538B82CFAE0A70003C123 /* BirdListAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A538B72CFAE0A70003C123 /* BirdListAppUITestsLaunchTests.swift */; };
+		75A538CC2CFAE1B10003C123 /* AddBirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A538CB2CFAE1B10003C123 /* AddBirdView.swift */; };
+		75A538CE2CFAE1F20003C123 /* Persistence Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A538CD2CFAE1F20003C123 /* Persistence Controller.swift */; };
+		75A538D12CFAE2820003C123 /* BirdListApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75A538CF2CFAE2820003C123 /* BirdListApp.xcdatamodeld */; };
+		75A538D32CFAE2E50003C123 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A538D22CFAE2E50003C123 /* Bird.swift */; };
+		75A538D52CFAE3AB0003C123 /* EditBirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A538D42CFAE3AB0003C123 /* EditBirdView.swift */; };
+		75A538D72CFAE7910003C123 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A538D62CFAE7910003C123 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75A538A82CFAE0A70003C123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A5388F2CFAE0A60003C123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A538962CFAE0A60003C123;
+			remoteInfo = BirdListApp;
+		};
+		75A538B22CFAE0A70003C123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A5388F2CFAE0A60003C123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A538962CFAE0A60003C123;
+			remoteInfo = BirdListApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75A538972CFAE0A60003C123 /* BirdListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A5389A2CFAE0A60003C123 /* BirdListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdListAppApp.swift; sourceTree = "<group>"; };
+		75A5389C2CFAE0A60003C123 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75A5389E2CFAE0A70003C123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75A538A12CFAE0A70003C123 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75A538A72CFAE0A70003C123 /* BirdListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A538AB2CFAE0A70003C123 /* BirdListAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdListAppTests.swift; sourceTree = "<group>"; };
+		75A538B12CFAE0A70003C123 /* BirdListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A538B52CFAE0A70003C123 /* BirdListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdListAppUITests.swift; sourceTree = "<group>"; };
+		75A538B72CFAE0A70003C123 /* BirdListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75A538CB2CFAE1B10003C123 /* AddBirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirdView.swift; sourceTree = "<group>"; };
+		75A538CD2CFAE1F20003C123 /* Persistence Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistence Controller.swift"; sourceTree = "<group>"; };
+		75A538D02CFAE2820003C123 /* BirdListApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirdListApp.xcdatamodel; sourceTree = "<group>"; };
+		75A538D22CFAE2E50003C123 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		75A538D42CFAE3AB0003C123 /* EditBirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBirdView.swift; sourceTree = "<group>"; };
+		75A538D62CFAE7910003C123 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75A538942CFAE0A60003C123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A538A42CFAE0A70003C123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A538AE2CFAE0A70003C123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75A5388E2CFAE0A60003C123 = {
+			isa = PBXGroup;
+			children = (
+				75A538CF2CFAE2820003C123 /* BirdListApp.xcdatamodeld */,
+				75A538992CFAE0A60003C123 /* BirdListApp */,
+				75A538AA2CFAE0A70003C123 /* BirdListAppTests */,
+				75A538B42CFAE0A70003C123 /* BirdListAppUITests */,
+				75A538982CFAE0A60003C123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75A538982CFAE0A60003C123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75A538972CFAE0A60003C123 /* BirdListApp.app */,
+				75A538A72CFAE0A70003C123 /* BirdListAppTests.xctest */,
+				75A538B12CFAE0A70003C123 /* BirdListAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75A538992CFAE0A60003C123 /* BirdListApp */ = {
+			isa = PBXGroup;
+			children = (
+				75A5389A2CFAE0A60003C123 /* BirdListAppApp.swift */,
+				75A5389C2CFAE0A60003C123 /* ContentView.swift */,
+				75A5389E2CFAE0A70003C123 /* Assets.xcassets */,
+				75A538A02CFAE0A70003C123 /* Preview Content */,
+				75A538CB2CFAE1B10003C123 /* AddBirdView.swift */,
+				75A538CD2CFAE1F20003C123 /* Persistence Controller.swift */,
+				75A538D22CFAE2E50003C123 /* Bird.swift */,
+				75A538D42CFAE3AB0003C123 /* EditBirdView.swift */,
+				75A538D62CFAE7910003C123 /* MainView.swift */,
+			);
+			path = BirdListApp;
+			sourceTree = "<group>";
+		};
+		75A538A02CFAE0A70003C123 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75A538A12CFAE0A70003C123 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75A538AA2CFAE0A70003C123 /* BirdListAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				75A538AB2CFAE0A70003C123 /* BirdListAppTests.swift */,
+			);
+			path = BirdListAppTests;
+			sourceTree = "<group>";
+		};
+		75A538B42CFAE0A70003C123 /* BirdListAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75A538B52CFAE0A70003C123 /* BirdListAppUITests.swift */,
+				75A538B72CFAE0A70003C123 /* BirdListAppUITestsLaunchTests.swift */,
+			);
+			path = BirdListAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75A538962CFAE0A60003C123 /* BirdListApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A538BB2CFAE0A70003C123 /* Build configuration list for PBXNativeTarget "BirdListApp" */;
+			buildPhases = (
+				75A538932CFAE0A60003C123 /* Sources */,
+				75A538942CFAE0A60003C123 /* Frameworks */,
+				75A538952CFAE0A60003C123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirdListApp;
+			productName = BirdListApp;
+			productReference = 75A538972CFAE0A60003C123 /* BirdListApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75A538A62CFAE0A70003C123 /* BirdListAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A538BE2CFAE0A70003C123 /* Build configuration list for PBXNativeTarget "BirdListAppTests" */;
+			buildPhases = (
+				75A538A32CFAE0A70003C123 /* Sources */,
+				75A538A42CFAE0A70003C123 /* Frameworks */,
+				75A538A52CFAE0A70003C123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A538A92CFAE0A70003C123 /* PBXTargetDependency */,
+			);
+			name = BirdListAppTests;
+			productName = BirdListAppTests;
+			productReference = 75A538A72CFAE0A70003C123 /* BirdListAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75A538B02CFAE0A70003C123 /* BirdListAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A538C12CFAE0A70003C123 /* Build configuration list for PBXNativeTarget "BirdListAppUITests" */;
+			buildPhases = (
+				75A538AD2CFAE0A70003C123 /* Sources */,
+				75A538AE2CFAE0A70003C123 /* Frameworks */,
+				75A538AF2CFAE0A70003C123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A538B32CFAE0A70003C123 /* PBXTargetDependency */,
+			);
+			name = BirdListAppUITests;
+			productName = BirdListAppUITests;
+			productReference = 75A538B12CFAE0A70003C123 /* BirdListAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75A5388F2CFAE0A60003C123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					75A538962CFAE0A60003C123 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					75A538A62CFAE0A70003C123 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 75A538962CFAE0A60003C123;
+					};
+					75A538B02CFAE0A70003C123 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 75A538962CFAE0A60003C123;
+					};
+				};
+			};
+			buildConfigurationList = 75A538922CFAE0A60003C123 /* Build configuration list for PBXProject "BirdListApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75A5388E2CFAE0A60003C123;
+			productRefGroup = 75A538982CFAE0A60003C123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75A538962CFAE0A60003C123 /* BirdListApp */,
+				75A538A62CFAE0A70003C123 /* BirdListAppTests */,
+				75A538B02CFAE0A70003C123 /* BirdListAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75A538952CFAE0A60003C123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A538A22CFAE0A70003C123 /* Preview Assets.xcassets in Resources */,
+				75A5389F2CFAE0A70003C123 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A538A52CFAE0A70003C123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A538AF2CFAE0A70003C123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75A538932CFAE0A60003C123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A538D12CFAE2820003C123 /* BirdListApp.xcdatamodeld in Sources */,
+				75A538D72CFAE7910003C123 /* MainView.swift in Sources */,
+				75A538D52CFAE3AB0003C123 /* EditBirdView.swift in Sources */,
+				75A5389D2CFAE0A60003C123 /* ContentView.swift in Sources */,
+				75A538CC2CFAE1B10003C123 /* AddBirdView.swift in Sources */,
+				75A538CE2CFAE1F20003C123 /* Persistence Controller.swift in Sources */,
+				75A538D32CFAE2E50003C123 /* Bird.swift in Sources */,
+				75A5389B2CFAE0A60003C123 /* BirdListAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A538A32CFAE0A70003C123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A538AC2CFAE0A70003C123 /* BirdListAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A538AD2CFAE0A70003C123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A538B62CFAE0A70003C123 /* BirdListAppUITests.swift in Sources */,
+				75A538B82CFAE0A70003C123 /* BirdListAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A538A92CFAE0A70003C123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A538962CFAE0A60003C123 /* BirdListApp */;
+			targetProxy = 75A538A82CFAE0A70003C123 /* PBXContainerItemProxy */;
+		};
+		75A538B32CFAE0A70003C123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A538962CFAE0A60003C123 /* BirdListApp */;
+			targetProxy = 75A538B22CFAE0A70003C123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75A538B92CFAE0A70003C123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75A538BA2CFAE0A70003C123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75A538BC2CFAE0A70003C123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BirdListApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nature.BirdListApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75A538BD2CFAE0A70003C123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BirdListApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nature.BirdListApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75A538BF2CFAE0A70003C123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nature.BirdListAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdListApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BirdListApp";
+			};
+			name = Debug;
+		};
+		75A538C02CFAE0A70003C123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nature.BirdListAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdListApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BirdListApp";
+			};
+			name = Release;
+		};
+		75A538C22CFAE0A70003C123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nature.BirdListAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirdListApp;
+			};
+			name = Debug;
+		};
+		75A538C32CFAE0A70003C123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nature.BirdListAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirdListApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75A538922CFAE0A60003C123 /* Build configuration list for PBXProject "BirdListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A538B92CFAE0A70003C123 /* Debug */,
+				75A538BA2CFAE0A70003C123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A538BB2CFAE0A70003C123 /* Build configuration list for PBXNativeTarget "BirdListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A538BC2CFAE0A70003C123 /* Debug */,
+				75A538BD2CFAE0A70003C123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A538BE2CFAE0A70003C123 /* Build configuration list for PBXNativeTarget "BirdListAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A538BF2CFAE0A70003C123 /* Debug */,
+				75A538C02CFAE0A70003C123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A538C12CFAE0A70003C123 /* Build configuration list for PBXNativeTarget "BirdListAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A538C22CFAE0A70003C123 /* Debug */,
+				75A538C32CFAE0A70003C123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75A538CF2CFAE2820003C123 /* BirdListApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75A538D02CFAE2820003C123 /* BirdListApp.xcdatamodel */,
+			);
+			currentVersion = 75A538D02CFAE2820003C123 /* BirdListApp.xcdatamodel */;
+			path = BirdListApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75A5388F2CFAE0A60003C123 /* Project object */;
+}
